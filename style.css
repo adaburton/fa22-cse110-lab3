@@ -10,6 +10,14 @@ nav li {
     display: inline;
 }
 
+summary:hover {
+    color: blue;
+}
+
+summary:active{
+    color: yellow;
+}
+
 body {
     background-color: #f5f5ff;
     width: 80vw;
