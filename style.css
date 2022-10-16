@@ -22,6 +22,9 @@ body {
     background-color: #f5f5ff;
     width: 80vw;
     margin: auto;
+    display: grid;
+    grid-template-columns: 10px, 1fr, 2fr, 1fr, 10px;
+    grid-template-rows: auto;
 }
 
 header {
@@ -29,6 +32,8 @@ header {
 }
 
 main {
+    
+    grid-column: 3, span 1;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 2vw;
@@ -66,11 +71,8 @@ strong {
     text-align: center;
 }
 
-nav {
-    
-}
-
 section {
+    grid-column: 2, span 1;
     width: 120pt;
     padding: 5px;
 }
@@ -86,6 +88,10 @@ details {
 }
 
 form {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-color: rgb(226, 225, 225);
     margin: 10px;
     border-style: solid;
@@ -94,13 +100,16 @@ form {
     border-radius: 0%;
     font-size: 2ex;
     padding: 5px;
-    min-width: 4.5in;
-    max-width: 6in;
+    min-width: 6in;
+    max-width: 8in;
+    
 }
 
 fieldset {
-    background-color: #f9f9ff;
     
+    flex-shrink: 3;
+    flex-basis: auto;
+    background-color: #f9f9ff;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 7px;
