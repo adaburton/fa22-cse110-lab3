@@ -7,15 +7,15 @@ body {
 }
 
 header {
-
+    
 }
 
 main {
-
+    
 }
 
 footer {
-     
+    background-color: rgb(248, 229, 229);
 }
 
 div {
@@ -23,7 +23,7 @@ div {
 }
 
 h1 {
-
+   color: hsl(235, 65%, 15%); 
 }
 
 h2 {
@@ -35,7 +35,7 @@ h3 {
 }
 
 strong {
-
+    color: red;
 }
 
 nav {
@@ -43,11 +43,11 @@ nav {
 }
 
 section {
-
+    
 }
 
 ul, ol {
-
+    
 }
 
 details {
