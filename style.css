@@ -4,6 +4,7 @@
 
 body {
     background-color: #f5f5ff;
+    
 }
 
 header {
@@ -11,7 +12,7 @@ header {
 }
 
 main {
-    
+    width: 80vw; 
 }
 
 footer {
@@ -24,6 +25,8 @@ div {
 
 h1 {
    color: hsl(235, 65%, 15%); 
+   height: 1.5cm;
+   font-size: 3em;
 }
 
 h2 {
@@ -39,11 +42,11 @@ strong {
 }
 
 nav {
-
+    
 }
 
 section {
-    
+    width: 120pt;
 }
 
 ul, ol {
@@ -51,11 +54,11 @@ ul, ol {
 }
 
 details {
-
+    width: 6in;
 }
 
 form {
-
+    font-size: 2ex;
 }
 
 fieldset {
