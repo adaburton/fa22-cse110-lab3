@@ -83,6 +83,8 @@ form {
     border-radius: 0%;
     font-size: 2ex;
     padding: 5px;
+    min-width: 4.5in;
+    max-width: 6in;
 }
 
 fieldset {
