@@ -18,12 +18,18 @@ nav li {
     display: inline;
 }
 
+
+
 summary:hover {
     color: blue;
 }
 
 summary:active{
     color: yellow;
+}
+
+a[href*="health"] {
+    text-shadow: 5px 5px rgb(245, 213, 213);
 }
 
 body {
