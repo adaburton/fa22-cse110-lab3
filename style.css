@@ -18,7 +18,25 @@ nav li {
     display: inline;
 }
 
+footer > details > summary {
+    color: blue;
+}
 
+legend ~ label {
+    text-shadow: 2px 2px #e4e4f5;
+}
+
+summary + p {
+    text-shadow: 2px 2px #e4e4f5;
+}
+
+h3.present + ul > li {
+    color: green;
+}
+
+h3.absent + ul > li {
+    color: red;
+}
 
 summary:hover {
     color: blue;
